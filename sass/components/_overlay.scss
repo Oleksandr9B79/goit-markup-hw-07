@@ -15,18 +15,7 @@
 	padding: 63px 24px;
 	transition: transform 250ms var(--timing-funktion);
 }
-.portfolio-desc {
-	display: block;
-	position: absolute;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.6;
-	letter-spacing: 0.03em;
-	color: #ffffff;
-	transition: 250ms var(--timing-funktion);
-}
+
 .portfolio-link:hover .overlay {
 	transform: translateY(0);
 	transition: 250ms var(--timing-funktion);

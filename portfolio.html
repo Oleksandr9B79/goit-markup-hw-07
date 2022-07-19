@@ -13,35 +13,51 @@
   </head>
   <body>
     <!--Header-->
-  <header class="header-list">
-      <div class="container header-container">
-         <a class="header-logo link" href="./index.html">Web<span class="part-logo-black">Studio</span></a>
+  <!--Header-logo -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo link" href="./index.html"
+          >Web<span class="logo__black">Studio</span></a
+        >
+        <!-- Header-nav -->
         <nav>
-         <ul class="site-nav list">
-          <li class="site-nav-item"><a class="header-link link" href="./index.html">Студия</a></li>
-          <li class="site-nav-item"><a class="header-link link current" href="./portfolio.html">Портфолио</a></li>
-          <li class="site-nav-item"><a class="header-link link" href="Контакты">Контакты</a></li>
-        </ul>     
-      </nav>
-      <ul class="cont list">
-        <li class="cont-nav-item mail"><a class="header-cont link" href="info@devstudio.com"><svg class="media-contacts" width="16" height="12">
-          <use href="./image/icons.svg#icon-mail"></use>
-        </svg>info@devstudio.com</a>
-      </li>    
-        <li class="cont-nav-item phone"><a class="header-cont link" href="+380961111111"><svg class="media-contacts" width="10" height="16">
-          <use href="./image/icons.svg#icon-phone"></use>
-        </svg>+38 096 111 11 11</a>
-      </li>
-      </ul>
+          <ul class="nav__site list">
+            <li class="list">
+              <a class="nav__link link " href="./index.html">Студия</a>
+            </li>
+            <li class="list">
+              <a class="nav__link link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="list">
+              <a class="nav__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="cont list">
+          <li>
+            <a class="cont__header link" href="info@devstudio.com"
+              ><svg class="cont__media" width="16" height="12">
+                <use href="./image/icons.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="cont__header link" href="+380961111111"
+              ><svg class="cont__media" width="10" height="16">
+                <use href="./image/icons.svg#icon-phone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <!--Main-->
     <main>
       <!--Navigation-->
       <section class="section">
-        <div class="container portfolio-container">
+        <div class="container portfolio">
         <h1 hidden>Портфолио</h1>
-      <div class="button-container">
+      <div class="portfolio__button">
         <button class="button-primary link" type="button">Все</button>
         <button class="button-primary link" type="button">Веб-сайты</button>
         <button class="button-primary link" type="button">Приложения</button>
@@ -54,7 +70,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port">
             <img src="./image/1.jpg" alt="logo seafood" width="370" />
-             <div class="porfolio-overlay">
+             <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -68,7 +84,7 @@
            <a class="portfolio-link link" href="#">
             <div class="portfolio-port"> 
             <img class="img-p" src="./image/2.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -82,7 +98,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port"> 
             <img class="img-p" src="./image/3.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -96,7 +112,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port">
             <img class="img-p" src="./image/4.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -110,7 +126,7 @@
             <a class="portfolio-link link" href="#"> 
               <div class="portfolio-port"> 
             <img class="img-p" src="./image/5.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -124,7 +140,7 @@
             <a class="portfolio-link link" href="#"> 
               <div class="portfolio-port"> 
             <img class="img-p" src="./image/6.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -138,7 +154,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port"> 
             <img class="img-p" src="./image/7.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -152,7 +168,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port"> 
             <img class="img-p" src="./image/8.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
@@ -166,7 +182,7 @@
             <a class="portfolio-link link" href="#">
               <div class="portfolio-port">
             <img class="img-p" src="./image/9.jpg" alt="logo seafood" width="370" />
-            <div class="porfolio-overlay">
+            <div class="overlay">
               <p class="portfolio-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
             </div>
             </div>
